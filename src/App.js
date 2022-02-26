@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-
+import {CodingQuiz, WeatherDashboard, PasswordGenerator} from "../assets/index.js";
 function App() {
   return (
     <div className="App">
@@ -42,6 +42,17 @@ function App() {
     <img src={"https://external-preview.redd.it/apVv0sqc7Wb9WpOW_E5nrgG8vuaKSMeoEoFRBQKT8dI.jpg?width=1024&auto=webp&s=aa05dc8ecb8cc8eb2d984bb5a27bc90086edb08c"} alt= {"UPENN Logo"} class= {"float-left"} />
     <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
   </summary>
+  <div id="Work">
+      <h1 id="WorkHeader">Work</h1>
+    
+      <a href="https://github.com/McGhee01/CodingEX">
+        <img id="Project1" src= {CodingQuiz} />
+      </a>
+      
+
+      <img id="Project2" src= {WeatherDashboard} href = "url webpage of deployed link" alt = {"WeatherDashboard"}/>
+      <img id="Project3" src= {PasswordGenerator} href = "url webpage of deployed link" alt = {"PasswordGenerator"}/>
+    </div>
     </div>
   );
 }
