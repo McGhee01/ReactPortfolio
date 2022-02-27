@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import {CodingQuiz, WeatherDashboard, PasswordGenerator} from "../assets/index.js";
+import {CodingQuiz, WeatherDashboard, PasswordGenerator} from "./assets/index.js";
 function App() {
   return (
     <div className="App">
@@ -46,13 +46,44 @@ function App() {
       <h1 id="WorkHeader">Work</h1>
     
       <a href="https://github.com/McGhee01/CodingEX">
-        <img id="Project1" src= {CodingQuiz} />
+        <img id="Project1" src= {CodingQuiz} alt = {"CodingQuiz"} />
       </a>
       
 
       <img id="Project2" src= {WeatherDashboard} href = "url webpage of deployed link" alt = {"WeatherDashboard"}/>
       <img id="Project3" src= {PasswordGenerator} href = "url webpage of deployed link" alt = {"PasswordGenerator"}/>
     </div>
+
+    <div class="column about">
+      <h3>Foolish Developer</h3>
+      <div>
+        <h3>Conatct Info</h3>
+       </div>
+       <div>
+        <p>If you'd like to contact me anytime, please use any of the forms of communication listed below:</p>
+        </div>
+        <div>
+          <p>Phone: 267.581.9847</p>
+        </div>
+        <div>
+          <p>Email: yahmir.mcghee@gmail.com</p>
+        </div> 
+        </div>
+
+        <div class="social">
+         
+        <a href="https://www.facebook.com">
+           
+          <i class="fa fa-facebook-square"  style ={{fontSize: "48px", color: "red"}}></i>
+        </a>
+        
+        <i className = {"fab fa-github-square"} style ={{fontSize: "48px", color: "red"}}></i> 
+       <i className = {"fa fa-instagram-square"}></i>
+       <i className = {"fa fa-twitter-square"}></i>
+       <i className = {"fa fa-youtube-square"}></i>
+       <i className = {"fa fa-whatsapp-square"}></i>
+      </div>
+      
     </div>
   );
 }
