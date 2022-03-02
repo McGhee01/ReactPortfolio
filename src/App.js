@@ -5,18 +5,18 @@ function App() {
   return (
     <div className="App">
        <ul>
-      <li id= "Link 1">
-      <a href="#Picture of Myself">Picture of Myself</a></li>
+      <li id="Link_1">
+      <a href="#Picture_of_Myself">Picture of Myself</a></li>
 
-      <li id= "Link 2">
+      <li id="Link_2">
       <a href="#Picture of Philadelphia">Picture of Birthplace</a></li>
 
-              <li id= "Link 3">
+              <li id="Link_3">
       <a href="#Picture of Overbrook High School">Picture of Overbrook High School</a></li>
 
-              <li id= "Link 4">
-      <a href="#Picture of UPENN Logo">Picture of UPENN Logo</a></li>    
-    </ul>
+              <li id="Link_4">
+      <a href="#Picture of UPENN Logo">Picture of UPENN Logo</a></li> 
+      </ul>
 
     <summary>
       <section class="content">
@@ -84,6 +84,13 @@ function App() {
        <i className = {"fa fa-whatsapp-square"}></i>
       </div>
       
+      <div id="ContactLinks">  
+    <img id={"Github"} src= {"./images/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg"} alt = {"Gmail"}/>
+    <img id={"LinkedIn"} src= {"./images/social-linkedin-circle-512.webp"} alt = {"LinkedIn"}/>
+    <img id={"Indeed"} src= {"./images/indeed-employer-logo.webp"} alt = {"Indeed  "}/>
+    <img id={"Gmail"} src= {"./images/Gmail_round-384x384.png"} alt = {"Gmail"}/>
+  </div> 
+
     </div>
   );
 }
