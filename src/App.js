@@ -18,6 +18,9 @@ function App() {
         <li id="Link 4">
           <a href="#Picture of UPENN Logo">Picture of UPENN Logo</a></li>
 
+          <li id="Link 5">
+          <a href="#Work">Finished Work</a></li>
+
 
       </ul>
 
@@ -53,8 +56,14 @@ function App() {
         </a>
 
 
-        <img id="Project2" src={WeatherDashboard} href="url webpage of deployed link" alt={"WeatherDashboard"} />
-        <img id="Project3" src={PasswordGenerator} href="url webpage of deployed link" alt={"PasswordGenerator"} />
+        <a href="https://github.com/McGhee01/WeatherDashboard">
+          <img id="Project2" src={WeatherDashboard} alt={"WeatherDashboard"} />
+        </a>
+
+        <a href="https://github.com/McGhee01/PasswordGenerator">
+          <img id="Project1" src={PasswordGenerator} alt={"PasswordGenerator"} />
+        </a>
+
       </div>
 
       <div class="column about">
