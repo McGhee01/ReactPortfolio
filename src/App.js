@@ -77,22 +77,42 @@ function App() {
 
         <a href="https://www.facebook.com">
 
-          <i class="fa fa-facebook-square" style={{ fontSize: "48px", color: "red" }}></i>
+          <i className="fa fa-facebook-square" style={{ fontSize: "48px", color: "red" }}></i>
         </a>
 
-        <i className={"fab fa-github-square"} style={{ fontSize: "48px", color: "red" }}></i>
+        <a href="https://www.facebook.com">
+
+          <i class="fa fa-facebook-square" style={{ fontSize: "48px", color: "red" }}></i>
+        </a>
+        
         <i className={"fa fa-instagram-square"}></i>
         <i className={"fa fa-twitter-square"}></i>
         <i className={"fa fa-youtube-square"}></i>
         <i className={"fa fa-whatsapp-square"}></i>
       </div>
 
-      <div id="ContactLinks">
-        <img id={"Github"} src={"./images/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg"} alt={"Gmail"} />
-        <img id={"LinkedIn"} src={"./images/social-linkedin-circle-512.webp"} alt={"LinkedIn"} />
-        <img id={"Indeed"} src={"./images/indeed-employer-logo.webp"} alt={"Indeed  "} />
-        <img id={"Gmail"} src={"./images/Gmail_round-384x384.png"} alt={"Gmail"} />
-      </div>
+      <div id="ContactLinks">  
+    
+    <p><a href="https://www.github.com">
+      <img id="Github" src="./images/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg" alt="Github"/>
+      </a></p>
+
+      <p><a href="https://www.linkedin.com">
+        <img id="LinkedIn" src="./images/social-linkedin-circle-512.webp" alt="LinkedIn" />
+        </a></p>
+
+        <p><a href="https://www.indeed.com">
+          <img id="Indeed" src="./images/indeed-employer-logo.webp" alt="Indeed" />
+          </a></p>
+
+          <p><a href="https://www.gmail.com">
+            <img id="Gmail" src="./images/Gmail_round-384x384.png" alt="Gmail" />
+            </a></p>
+
+     <p><a href="https://www.w3schools.com">
+      <img src="w3html.gif" alt="W3Schools.com" width="100" height="132"/>
+      </a></p>
+  </div> 
 
     </div></>
   );
