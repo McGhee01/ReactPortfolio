@@ -41,11 +41,7 @@ body {
     background-color:gray;
    
   }
-img{
-    width: 700px;
-    box-shadow: 0.5em 0.5em .5em rgba(0, 0, 0, 0.781);
 
-}
 #Myself{
     width:800px;
 }
@@ -89,11 +85,15 @@ li {
   } */
 
   #Github, #LinkedIn, #Indeed, #Gmail {
-    height: 100px;
-    width: 100px;
+    height: 15vh;
+    width: 10vw;
     margin: 50px;
 }
 
+img{
+  box-shadow: 0.5em 0.5em .5em rgba(0, 0, 0, 0.781);
+
+}
   /* #Indeed {
     height: 100px;
     width: 100px;
