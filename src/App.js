@@ -84,20 +84,35 @@ function App() {
 
       <div class="social">
 
-        <a href="https://www.facebook.com">
+        <a href="https://www.github.com">
 
-          <i className="fa fa-facebook-square" style={{ fontSize: "48px", color: "red" }}></i>
+        <i className= "fa fa-facebook-square" style={{ fontSize: "48px", color: "red"}} ></i>
+        </a>
+
+        <a href="https://www.linkedin.com">
+
+          <i class="fa fa-facebook-square" style={{ fontSize: "48px", color: "red" }}></i>
+        </a>
+        
+        <a href="https://www.indeed.com">
+
+          <i class="fa fa-facebook-square" style={{ fontSize: "48px", color: "red" }}></i>
+        </a>
+
+        <a href="https://www.gmail.com">
+
+          <i class="fa fa-facebook-square" style={{ fontSize: "48px", color: "red" }}></i>
+        </a>
+
+        <a href="https://www.w3schools.com">
+
+          <i class="fa fa-facebook-square" style={{ fontSize: "48px", color: "red" }}></i>
         </a>
 
         <a href="https://www.facebook.com">
 
           <i class="fa fa-facebook-square" style={{ fontSize: "48px", color: "red" }}></i>
         </a>
-        
-        <i className={"fa fa-instagram-square"}></i>
-        <i className={"fa fa-twitter-square"}></i>
-        <i className={"fa fa-youtube-square"}></i>
-        <i className={"fa fa-whatsapp-square"}></i>
       </div>
 
       <div id="ContactLinks">  
@@ -107,7 +122,7 @@ function App() {
       </a></p>
 
       <p><a href="https://www.linkedin.com">
-        <img id="LinkedIn" src="./images/social-linkedin-circle-512.webp" alt="LinkedIn" />
+        <img src={'./images/social-linkedin-circle-512.webp'} alt="LinkedIn" />
         </a></p>
 
         <p><a href="https://www.indeed.com">
